@@ -2932,7 +2932,7 @@ void Audio::processLocalFile() {
             }
         }
         InBuff.resetBuffer();
-        if(!playI2Sremains()) return;
+        //if(!playI2Sremains()) return;
 
         if(m_f_loop  && f_stream){  //eof
             sprintf(chbuf, "loop from: %u to: %u", getFilePos(), m_audioDataStart);  //TEST loop
